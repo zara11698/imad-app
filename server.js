@@ -9,6 +9,18 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/article-one', function (req, res) {
+    res.send('Certified bookworm alert!!!');
+});
+
+app.get('/article-two', function (req, res) {
+    res.send('Living a thousand lives, inspiring millions');
+});
+
+app.get('/article-three', function (req, res) {
+    res.send('One life, one love.');
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
