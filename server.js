@@ -14,7 +14,7 @@ app.get('/readers-blog', function (req, res) {
 });
 
 app.get('/article-two', function (req, res) {
-    res.send('Living a thousand lives, inspiring millions');
+  res.sendFile(path.join(__dirname, 'ui', 'authors.html'));
 });
 
 app.get('/article-three', function (req, res) {
