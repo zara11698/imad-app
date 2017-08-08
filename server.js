@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-    res.send('Certified bookworm alert!!!');
+  res.sendFile(path.join(__dirname, 'ui', 'bookworm.html'));
 });
 
 app.get('/article-two', function (req, res) {
