@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Authors | Zara
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div>
+            <a href="/">Home</a>
+        </div>
+        <hr/>
+        <h3>
+            Bestselling Authors
+        </h3>
+        <div>
+            My Top 7
+        </div>
+        <div>
+                <ol>
+                    <li> JK Rowling </li>
+                    <li> Cassandra Clare </li>
+                    <li> Rick Riordan </li>
+                    <li> Anthony Horowitz </li>
+                    <li> Veronica Roth </li>
+                    <li> Kathy Reichs </li>
+                    <li> John Green </li>
+                </ol>
+        </div>
+    </body>
+</html>
